@@ -23,7 +23,7 @@
     "react-test-renderer": "^16.8.6"
   },
   "dependencies": {
-    "@babel/core": "^7.4.4",
+    "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.4.4",
     "@next/bundle-analyzer": "^8.1.0",
     "@zeit/next-css": "^1.0.1",
