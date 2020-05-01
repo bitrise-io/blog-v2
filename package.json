@@ -10,7 +10,9 @@
     "test:watch": "yarn test --watch",
     "sitemap": "node scripts/generate-sitemap",
     "algolia": "node scripts/index-algolia.js",
-    "heroku-postbuild": "yarn run build"
+    "heroku-postbuild": "yarn run build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",
@@ -43,6 +45,8 @@
     "react-dom": "^16.8.6",
     "react-inlinesvg": "^0.8.4",
     "react-instantsearch-dom": "^5.5.0",
-    "sitemap": "^2.2.0"
-  }
+    "sitemap": "^2.2.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
